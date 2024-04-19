@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+ 
+}
+
+.button{
+  font-size: 20px;
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color:grey;
+}
+
+.button:hover{
+  background-color: #b5b5b5;
+}
+.button:active {
+  background-color: #363636; /* Change background color on click */
+}
+
+/* styles.css */
+.equal-button {
+  background-color: #ed7512;
+}
+
+.equal-button:hover {
+  background-color: #fec04d; /* Change background color on hover */
+}
+
+.equal-button:active {
+  background-color: #8b4500; /* Change background color on click */
+}
+
+.op-button {
+  background-color: #52a003;
+}
+
+.op-button:hover {
+  background-color: #93e670; /* Change background color on hover */
+}
+
+.op-button:active {
+  background-color: #2b5b0b; /* Change background color on click */
+}
+
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 30px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
